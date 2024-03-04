@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@media screen and (max-width: 500px){
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+header h1{
+    font-family: Luckiest Guy;
+    color: white;
+    font-size: 32px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+header p{
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
+}
+
+header .botao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 10px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+header .button1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+header .button2{
+    background-color: #23272A;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: Open Sans;
+}
+
+section .card1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.card1 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+section h1{
+    font-family: Open Sans;
+    font-size: 24px;
+    margin: 20px;
+}
+
+section p{
+    font-family: Open Sans;
+    font-weight: 16px;
+    margin: 20px;
+}
+
+ .card-2{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.card-2 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.card3 img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.card4 img{
+    width: 90%;
+    object-fit: contain;
+}
+
+.card4 h1{
+    font-family: Luckiest Guy;
+    font-size: 32px;
+}
+
+footer{
+    background-color: #23272A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+}
+
+@media screen and (min-width:510px){
+    header{
+        display: flex;
+        flex-direction: column;
+        background-image: url(assets/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        height: 460px;
+    }
+    
+    header h1{
+        font-family: Luckiest Guy;
+        color: white;
+        font-size: 56px;
+        margin: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    header p{
+        color: white;
+        font-family: Open Sans;
+        font-size: 16px;
+        padding: 20px;
+        text-align: justify;
+        width: 757px;
+        height: 70px;
+    }
+    
+    header .botao{
+        display: flex;
+        flex-direction: row;
+        gap: 20px 20px;
+        padding: 20px;
+        margin-bottom: 70px;
+    }
+    
+    header .button1{
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-family: Open Sans;
+    }
+    
+    header .button2{
+        background-color: #23272A;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-family: Open Sans;
+    }
+    
+    .card1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .card1 .image1 img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .card1 h1{
+        font-family: Open Sans;
+        font-size: 40px;
+        width: 320px;
+        flex-direction: column;
+    }
+    
+    .card1 .description  p{
+        font-family: Open Sans;
+        font-weight: 16px;
+        margin: 20px;
+        width: 200px;
+    }
+    
+     .card-2{
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 h1{
+        font-size: 40px;
+        font-family: Open Sans;
+        margin: 40px;
+    }
+
+    .card-2 .description p{
+        margin: 40px;
+        font-family: Open Sans;
+        width: 200px;
+    }
+    
+    .card-2 .image1 img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .card3{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .card3 .image1 img{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .card3 h1{
+        font-size: 40px;
+        font-family: Open Sans;
+        margin: 40px;
+    }
+
+    .card3 .description p{
+        margin: 40px;
+        font-family: Open Sans;
+        width: 200px;
+    }
+    
+    .card4{
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card4 .image1 img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .card4 h1{
+        font-family: Luckiest Guy;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .card4 p{
+        margin: 40px;
+        font-family: Open Sans;
+        text-align: center;
+        width: 900px;
+    }
+    
+    footer{
+        background-color: #23272A;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        height: 100px;
+    }
+
+}
